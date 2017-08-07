@@ -10,8 +10,8 @@ if os.name == "nt":
     sys.exit(1)
 else:
     cmds = ['cp .vimrc ~/.vimrc',
-            'mkdir -p ~/.vim/autoload ~/.vim/bundle &&  \
-             curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim']
+            'mkdir -p ~/.vim/autoload ~/.vim/bundle',
+             'curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim']
 
     print '[~] unix!'
     for cmd in cmds:
