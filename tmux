@@ -1,6 +1,7 @@
 tux new -s [session-name]
 
 tmux kill-session -t [session-name]
+tmux attach -t [session-name]
 
 
 [ctrl+b]
@@ -8,7 +9,7 @@ _________Sessions________
         
         [s] - list sessions
         [$] - name session
-
+        [d] - detach
 _________Windows_________
 
         [c] - create window
