@@ -14,3 +14,6 @@ ______Moving Around______
     [H|M|L] -      Jump to the [top|middle|bottom] of the screen. 
 
 
+____Search/Replace_________
+
+:6,10s/foo/bar/g    //repalace foo with bar on lines 6-10 inclusive
